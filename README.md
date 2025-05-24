@@ -17,7 +17,7 @@ EduTracker allows students to:
 - View custom study schedules
 - Filter based on class and subjects
 - A tracker
-- Suggest Youtube channels based on subjects 
+- Suggest Youtube channels based on subjects
 
 ---
 
@@ -72,3 +72,4 @@ Reach out via GitHub : https://github.com/Shree962 or email at 'shreetha.h@s.ami
 Acknowledgements
 
 - Inspired by [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+
