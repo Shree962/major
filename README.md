@@ -1,65 +1,74 @@
- 📚 EduTracker
+ 📚 EDU Tracker
+
+[![Status](https://img.shields.io/badge/project-active-brightgreen)]()
+[![HTML](https://img.shields.io/badge/tech-HTML5-orange)]()
+[![CSS](https://img.shields.io/badge/tech-CSS3-blue)]()
 
 A smart study timetable manager built for students across various classes. Designed to personalize daily routines, organize study time, and boost productivity.
 
-> 👥 Project by a team of 4 — this README documents the project structure and Git collaboration flow.
+> This project is part of a team-based collaboration.
 
 ---
 
- 🚀 About The Project
+About The Project
 
+Edu Tracker created and designed using HTML and CSS.
 EduTracker allows students to:
 - View custom study schedules
 - Filter based on class and subjects
-- Access dashboards
-- Export their timetables in PDF
+- A tracker
+- Suggest Youtube channels based on subjects 
 
 ---
 
- 🧩 Git Workflow Overview
+Files Created
 
-Each team member worked on a dedicated branch. The changes were merged strategically into two main files (`file1`, `file2`) in the `master` branch.
-
-
- 📌 Team Contributions
-
-| Member Name         | Branch | Feature Worked On          | File Affected |
-|---------------------|--------|-----------------------------|----------------|
-| Member 1            | B1     | Login System                | `file1`        |
-| Member 2            | B2     | Class Filter Logic          | `file1`        |
-| Member 3            | B3     | Dashboard UI                | `file2`        |
-| **Shreetha H (You)**| B4     | Export Timetable as PDF     | `file2`        |
+bba.html - EDU Tracker for bba students
+bcom.html - EDU Tracker for bcom students
 
 ---
 
- ✨ Your Contribution (Shreetha H)
+I followed a structured Git workflow using feature branches to manage and improve my web page of edu tracking.
 
-- 📁 Branch: `B4`
-- 🧾 File: `file2`
-- ✅ Feature: **Export timetable as PDF**
-- 📋 Description:
-  - Implemented PDF generation functionality for student timetables.
-  - Ensured export is class-specific and user-friendly.
-  - Collaborated with the dashboard contributor to fetch data dynamically.
+ 🔨 Step-by-Step Git Workflow
 
----
+1. Started in the `master` branch:
 
- 🔄 Git Workflow
+   git checkout master ;
+   vi bba.html, vi bcom.html ;
+   git add . ;
+   git commit -m "Add basic html tags and certain codes"
+
+2. Branches
+
+| Branch | Purpose                                       |
+| ------ | --------------------------------------------- |
+| `B1`   | Added Study timetable for bba |
+| `B2`   | Added proper codes for Study timetable |
+| `B3`   | Inserted Study timetable for bcom |
+| `B4`   | Inserted Study time table with tracker for bcom |
+
+3. Merging
+
+git checkout master
+
+Each file has two development branches that were merged into the master after testing and review.
 
 Branches `B1`, `B2`, `B3`, and `B4` were created from `master`.
 
  Merging Summary:
-- `B1` + `B2` → merged into `file1`
-- `B3` + `B4` → merged into `file2`
+- `B1` + `B2` → merged into master in `bba.html`
+- `B3` + `B4` → merged into master in `bcom.html`
 
+---
 
-📫 Contact
-Shreetha H
-Email: shreetha.h@s.amity.edu
-GitHub: github.com/Shree962
+Contact
+Have questions or feedback?
 
-🙏 Acknowledgements
-This README structure was inspired by:
-🔗 othneildrew/Best-README-Template
+Reach out via GitHub : https://github.com/Shree962 or email at 'shreetha.h@s.amity.edu'
 
-Special thanks to our mentor, team members, and reviewers for feedback and guidance.
+---
+
+Acknowledgements
+
+- Inspired by [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
